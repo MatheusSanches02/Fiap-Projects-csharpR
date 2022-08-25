@@ -10,7 +10,7 @@ namespace Fiap.Exercicio.UI.Models
     {
         public int Agencia { get; set; }
         public int Numero { get; set; }
-        public decimal Saldo { get; set; }
+        public decimal Saldo { get; protected set; }
         public DateTime DataAbertura { get; set; }
         public IList<Cliente> Clientes { get; set; }
 
@@ -21,7 +21,14 @@ namespace Fiap.Exercicio.UI.Models
             Clientes = clientes;
         }
 
-        public abstract void Depositar(decimal valor);
+        public override string ToString()
+        {
+            return $"Número: {Numero}, Agência: {Agencia}, Saldo: {Saldo}";
+        }
+        public virtual void Depositar(decimal valor)
+        {
+            Saldo += valor;
+        }
         public abstract void Retirar(decimal valor);
     }
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Fiap.Exercicio.UI\\Fiap.Exercicio.UI.csproj",
+      "projectUniqueName": "C:\\Users\\logonrmlocal\\Downloads\\Fiap.Exercicio.UI\\Fiap.Exercicio.UI.csproj",
       "projectName": "Fiap.Exercicio.UI",
-      "projectPath": "D:\\Fiap.Exercicio.UI\\Fiap.Exercicio.UI.csproj",
+      "projectPath": "C:\\Users\\logonrmlocal\\Downloads\\Fiap.Exercicio.UI\\Fiap.Exercicio.UI.csproj",
       "packagesPath": "C:\\Users\\logonrmlocal\\.nuget\\packages\\",
-      "outputPath": "D:\\Fiap.Exercicio.UI\\obj\\",
+      "outputPath": "C:\\Users\\logonrmlocal\\Downloads\\Fiap.Exercicio.UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

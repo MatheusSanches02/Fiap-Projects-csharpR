@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Fiap.Exercicio.UI.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,16 +15,32 @@ namespace Fiap.Exercicio.UI.Models
         public ContaCorrente(int agencia, int numero, IList<Cliente> clientes, TipoConta tipo) : base(agencia, numero, clientes)
         {
             Tipo = tipo;
+
+            switch (tipo)
+            {
+                case TipoConta.Especial:
+                    Limite = 500;
+                    break;
+                case TipoConta.Premium:
+                    Limite = 1000;
+                    break;
+            }
         }
 
-        public override void Depositar(decimal valor)
+        public override string ToString()
         {
-            Saldo = Saldo + valor;
+            return base.ToString() + $"Limite: {Limite}, Tipo Conta: {Tipo}";
         }
 
         public override void Retirar(decimal valor)
         {
-            Saldo = Saldo - valor;
+
+            var saldoTotal = Saldo + Limite;
+            if(valor > saldoTotal)
+            {
+                throw new SaldoInsuficienteException($"Valor disponivel {saldoTotal}");
+            }
+            Saldo -= valor;
         }
     }
 

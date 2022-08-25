@@ -18,5 +18,9 @@ namespace Fiap.Exercicio.UI.Models
             Id = id;
             Nome = nome;
         }
+        public override string ToString()
+        {
+            return $"Id: {Id}, Nome: {Nome}";
+        }
     }
 }
