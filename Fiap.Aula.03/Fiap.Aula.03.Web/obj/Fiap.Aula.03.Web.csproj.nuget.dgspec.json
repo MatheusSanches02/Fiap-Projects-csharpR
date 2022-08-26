@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap.Aula.03\\Fiap.Aula.03.Web\\Fiap.Aula.03.Web.csproj": {}
+    "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap-Projects-csharpR\\Fiap.Aula.03\\Fiap.Aula.03.Web\\Fiap.Aula.03.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap.Aula.03\\Fiap.Aula.03.Web\\Fiap.Aula.03.Web.csproj": {
+    "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap-Projects-csharpR\\Fiap.Aula.03\\Fiap.Aula.03.Web\\Fiap.Aula.03.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap.Aula.03\\Fiap.Aula.03.Web\\Fiap.Aula.03.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap-Projects-csharpR\\Fiap.Aula.03\\Fiap.Aula.03.Web\\Fiap.Aula.03.Web.csproj",
         "projectName": "Fiap.Aula.03.Web",
-        "projectPath": "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap.Aula.03\\Fiap.Aula.03.Web\\Fiap.Aula.03.Web.csproj",
+        "projectPath": "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap-Projects-csharpR\\Fiap.Aula.03\\Fiap.Aula.03.Web\\Fiap.Aula.03.Web.csproj",
         "packagesPath": "C:\\Users\\Matheus Sanches\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap.Aula.03\\Fiap.Aula.03.Web\\obj\\",
+        "outputPath": "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap-Projects-csharpR\\Fiap.Aula.03\\Fiap.Aula.03.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,32 +46,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[6.0.8, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
         }
       }
     }
