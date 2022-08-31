@@ -22,7 +22,7 @@ namespace Fiap.Aula._03.Web.Controllers
             ViewData["nome"] = usuario.Nome;
             ViewBag.usuario = usuario;
 
-            return View("Logado");
+            return View("Logado", usuario);
         }
     }
 }

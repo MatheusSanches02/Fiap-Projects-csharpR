@@ -18,8 +18,10 @@ namespace Fiap.Aula._03.Web.Controllers
         [HttpPost]
         public IActionResult Soma(decimal numero1, decimal numero2)
         {
-            ViewBag.soma = numero1 + numero2;
-            return View("SomaFeita");
+            //ViewBag.soma = numero1 + numero2;
+            //return View("SomaFeita"); //se for retornar a mesma view, nao precisa passar parametro
+            TempData["soma"] = numero1 + numero2;
+            return RedirectToAction("Soma"); //só retorna para views que tenham o action
         }
     }
 }

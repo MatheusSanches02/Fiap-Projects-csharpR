@@ -476,3 +476,29 @@ C:\Users\Matheus Sanches\Documents\Github Repo\Fiap-Projects-csharpR\Fiap.Aula.0
 C:\Users\Matheus Sanches\Documents\Github Repo\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\Fiap.Aula.03.Web.pdb
 C:\Users\Matheus Sanches\Documents\Github Repo\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\Fiap.Aula.03.Web.genruntimeconfig.cache
 C:\Users\Matheus Sanches\Documents\Github Repo\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\ref\Fiap.Aula.03.Web.dll
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\Fiap.Aula.03.Web.dll
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\refint\Fiap.Aula.03.Web.dll
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\Fiap.Aula.03.Web.pdb
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\bin\Debug\net6.0\appsettings.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\bin\Debug\net6.0\Fiap.Aula.03.Web.staticwebassets.runtime.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\bin\Debug\net6.0\Fiap.Aula.03.Web.exe
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\bin\Debug\net6.0\Fiap.Aula.03.Web.deps.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\bin\Debug\net6.0\Fiap.Aula.03.Web.runtimeconfig.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\bin\Debug\net6.0\Fiap.Aula.03.Web.dll
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\bin\Debug\net6.0\Fiap.Aula.03.Web.pdb
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\Fiap.Aula.03.Web.csproj.AssemblyReference.cache
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\Fiap.Aula.03.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\Fiap.Aula.03.Web.AssemblyInfoInputs.cache
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\Fiap.Aula.03.Web.AssemblyInfo.cs
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\Fiap.Aula.03.Web.csproj.CoreCompileInputs.cache
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\Fiap.Aula.03.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\Fiap.Aula.03.Web.RazorAssemblyInfo.cache
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\Fiap.Aula.03.Web.RazorAssemblyInfo.cs
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\scopedcss\bundle\Fiap.Aula.03.Web.styles.css
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\scopedcss\projectbundle\Fiap.Aula.03.Web.bundle.scp.css
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\Fiap.Aula.03.Web.genruntimeconfig.cache
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula.03\Fiap.Aula.03.Web\obj\Debug\net6.0\ref\Fiap.Aula.03.Web.dll
