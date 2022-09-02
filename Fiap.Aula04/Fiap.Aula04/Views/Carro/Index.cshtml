@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de carros</h1>
+
+<table class="table">
+    <thead>Modelo</thead>
+    @foreach(var c in ViewBag.lista)
+    {
+        <tbody>c.Modelo</tbody>
+    }
+</table>
+
