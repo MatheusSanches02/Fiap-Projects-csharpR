@@ -1,15 +1,34 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
-}
+﻿@model List<Carro>
+
 
 <h1>Lista de carros</h1>
 
+<a asp-action="cadastrar" class="btn btn-sm btn-outline-dark">Cadastrar</a>
+
 <table class="table">
-    <thead>Modelo</thead>
-    @foreach(var c in ViewBag.lista)
+    <tr>
+        <th>Modelo</th>
+        <th>Ano</th>
+        <th>Cambio</th>
+        <th>Fabricante</th>
+        <th>Combustível</th>
+        <th>Valor</th>
+        <th></th>
+    </tr>
+
+    @foreach(var carro in Model)
     {
-        <tbody>c.Modelo</tbody>
+        <tr>
+            <td>@carro.Modelo</td>
+            <td>@carro.Ano</td>
+            <td>@(carro.Automatico?"Automático":"Manual")</td>
+            <td>@carro.Fabricante</td>
+            <td>@carro.Combustivel</td>
+            <td>@carro.Valor</td>
+            <td>
+                <a asp-action="Editar" asp-route-id="@carro.Codigo" class="btn btn-sm btn-outline-dark"><i class="fa fa-solid fa-pen"></i></a>
+            </td>
+
+        </tr>
     }
 </table>
-
