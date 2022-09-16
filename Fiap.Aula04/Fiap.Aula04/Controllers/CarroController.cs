@@ -17,12 +17,17 @@ namespace Fiap.Aula04.Controllers
             return View(_carroList);
         }
 
+        private void CarregarFabricantes()
+        {
+            var fabricantes = new List<string>(new string[] { "Nissan", "Honda", "Fiat", "Toyota", "Renault", "Volkswagen" });
+
+            ViewBag.Fabricantes = new SelectList(fabricantes);
+        }
+
         [HttpGet]
         public IActionResult Cadastrar()
         {
-            var fabricantes = new List<string>(new string[] {"Nissan", "Honda", "Fiat", "Toyota", "Renault", "Volkswagen"});
-
-            ViewBag.Fabricantes = new SelectList(fabricantes);
+            CarregarFabricantes();
             return View();
         }
 
@@ -39,8 +44,30 @@ namespace Fiap.Aula04.Controllers
         public IActionResult Editar(int id)
         {
             var carro = _carroList.Find(match => match.Codigo == id);
+            CarregarFabricantes();
 
             return View(carro);
+        }
+
+        [HttpPost]
+        public IActionResult Editar(Carro carro)
+        {
+            carro = _carroList[_carroList.FindIndex(c => c.Codigo == carro.Codigo)];
+
+            TempData["edicaoConcluida"] = "Carro Atualizado!";
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult Excluir(int id)
+        {
+            var index = _carroList.FindIndex(c => c.Codigo == id);
+            _carroList.RemoveAt(index);
+
+            TempData["exclusaoConcluida"] = "Carro Excluido!";
+
+            return RedirectToAction("Index");
         }
     }
 }

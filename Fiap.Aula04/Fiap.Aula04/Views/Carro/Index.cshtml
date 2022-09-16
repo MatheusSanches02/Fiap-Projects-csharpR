@@ -26,9 +26,34 @@
             <td>@carro.Combustivel</td>
             <td>@carro.Valor</td>
             <td>
-                <a asp-action="Editar" asp-route-id="@carro.Codigo" class="btn btn-sm btn-outline-dark"><i class="fa fa-solid fa-pen"></i></a>
+                <a asp-action="editar" asp-route-id="@carro.Codigo" class="btn btn-sm btn-info"><i class="fa fa-solid fa-pen"></i></a>
+                <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fa fa-solid fa-trash"></i>
+                </button>
             </td>
 
         </tr>
     }
 </table>
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Confirmação</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Deseja mesmo excluir?
+            </div>
+            <div class="modal-footer">
+                <form asp-action= "excluir">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-danger">Excluir</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
