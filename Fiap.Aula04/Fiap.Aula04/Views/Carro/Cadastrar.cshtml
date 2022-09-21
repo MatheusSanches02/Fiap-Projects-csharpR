@@ -6,12 +6,7 @@
 
 <h1>Cadastrar</h1>
 
-@if(TempData["mensagemSucesso"] != null)
-{
-    <div class="alert alert-info">
-        <h1>@TempData["mensagemSucesso"]</h1>
-    </div>
-}
+<mensagem mensagem="@TempData["mensagemSucesso"]"></mensagem>
 
 <form asp-controller="carro" asp-action="cadastrar">
     <div class="mb-3">
@@ -42,6 +37,6 @@
         <label asp-for="Automatico" class="form-label"></label>
         <input asp-for="Automatico" type="checkbox"/>
     </div>
-    <input type="submit" value="Cadastrar" class="btn btn-primary"/>
+    <botao texto="Cadastrar"></botao>
     <a asp-action="index" class="btn btn-outline-dark">Consultar</a>
 </form>

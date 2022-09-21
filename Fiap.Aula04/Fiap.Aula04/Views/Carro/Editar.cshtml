@@ -6,12 +6,7 @@
 
 <h1>Editar</h1>
 
-@if (TempData["edicaoConcluida"] != null)
-{
-    <div class="alert alert-info">
-        <h1>@TempData["edicaoConcluida"]</h1>
-    </div>
-}
+<mensagem mensagem="@TempData["edicaoConcluida"]"></mensagem>
 
 <form asp-controller="carro" asp-action="editar">
     <input asp-for="Codigo"/>
@@ -43,6 +38,6 @@
         <label asp-for="Automatico" class="form-label"></label>
         <input asp-for="Automatico" type="checkbox"/>
     </div>
-    <input type="submit" value="Salvar" class="btn btn-primary"/>
+    <botao texto="Editar"></botao>
     <a asp-action="index" class="btn btn-outline-dark">Consultar</a>
 </form>
