@@ -237,3 +237,29 @@ C:\Users\Matheus Sanches\Documents\Github Repo\Fiap-Projects-csharpR\Fiap.Aula04
 C:\Users\Matheus Sanches\Documents\Github Repo\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\Fiap.Aula04.pdb
 C:\Users\Matheus Sanches\Documents\Github Repo\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\Fiap.Aula04.genruntimeconfig.cache
 C:\Users\Matheus Sanches\Documents\Github Repo\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\ref\Fiap.Aula04.dll
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\Fiap.Aula04.dll
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\refint\Fiap.Aula04.dll
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\Fiap.Aula04.pdb
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\bin\Debug\net6.0\appsettings.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\bin\Debug\net6.0\Fiap.Aula04.staticwebassets.runtime.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\bin\Debug\net6.0\Fiap.Aula04.exe
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\bin\Debug\net6.0\Fiap.Aula04.deps.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\bin\Debug\net6.0\Fiap.Aula04.runtimeconfig.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\bin\Debug\net6.0\Fiap.Aula04.dll
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\bin\Debug\net6.0\Fiap.Aula04.pdb
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\Fiap.Aula04.csproj.AssemblyReference.cache
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\Fiap.Aula04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\Fiap.Aula04.AssemblyInfoInputs.cache
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\Fiap.Aula04.AssemblyInfo.cs
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\Fiap.Aula04.csproj.CoreCompileInputs.cache
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\Fiap.Aula04.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\Fiap.Aula04.RazorAssemblyInfo.cache
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\Fiap.Aula04.RazorAssemblyInfo.cs
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\scopedcss\bundle\Fiap.Aula04.styles.css
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\scopedcss\projectbundle\Fiap.Aula04.bundle.scp.css
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\Fiap.Aula04.genruntimeconfig.cache
+C:\Users\logonrmlocal\Downloads\Fiap-Projects-csharpR\Fiap.Aula04\Fiap.Aula04\obj\Debug\net6.0\ref\Fiap.Aula04.dll
