@@ -56,7 +56,7 @@ namespace Fiap.Aula04.Controllers
 
             TempData["edicaoConcluida"] = "Carro Atualizado!";
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Editar");
         }
 
         [HttpPost]
