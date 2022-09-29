@@ -1,5 +1,10 @@
 ﻿@model List<Carro>
 
+@section Banner{
+    <div class="alert alert-warning text-center">
+        Quer comprar um carro com 50% de desconto? Clique aqui
+    </div>
+}
 
 <h1>Lista de carros</h1>
 
@@ -23,11 +28,11 @@
             <td>@carro.Ano</td>
             <td>@(carro.Automatico?"Automático":"Manual")</td>
             <td>@carro.Fabricante</td>
-            <td>@carro.Combustivel</td>
+            <td>@carro.Combustivel.GetDisplayName()</td>
             <td>@carro.Valor</td>
             <td>
-                <a asp-action="editar" asp-route-id="@carro.Codigo" class="btn btn-sm btn-info"><i class="fa fa-solid fa-pen"></i></a>
-                <button type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a asp-action="editar" asp-route-id="@carro.Codigo" class="btn btn-sm"><i class="fa fa-solid fa-pen"></i></a>
+                <button onclick="carroId.value = @carro.Codigo" type="button" class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     <i class="fa fa-solid fa-trash"></i>
                 </button>
             </td>
@@ -50,8 +55,9 @@
             </div>
             <div class="modal-footer">
                 <form asp-action= "excluir">
+                    <input name="id" type="hidden" id="carroId"/>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
-                    <button type="button" class="btn btn-danger">Excluir</button>
+                    <button type="submit" class="btn btn-danger">Excluir</button>
                 </form>
             </div>
         </div>

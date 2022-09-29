@@ -52,11 +52,11 @@ namespace Fiap.Aula04.Controllers
         [HttpPost]
         public IActionResult Editar(Carro carro)
         {
-            carro = _carroList[_carroList.FindIndex(c => c.Codigo == carro.Codigo)];
+           _carroList[_carroList.FindIndex(c => c.Codigo == carro.Codigo)] = carro;
 
             TempData["edicaoConcluida"] = "Carro Atualizado!";
 
-            return RedirectToAction("Index");
+            return RedirectToAction("Editar");
         }
 
         [HttpPost]
