@@ -8,37 +8,31 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Matheus Sanches\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\logonrmlocal\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap-Projects-csharpR\\Fiap.Aula04\\Fiap.Aula04\\Fiap.Aula04.csproj",
+      "projectUniqueName": "C:\\Users\\logonrmlocal\\Downloads\\Fiap-Projects-csharpR\\Fiap.Aula04\\Fiap.Aula04\\Fiap.Aula04.csproj",
       "projectName": "Fiap.Aula04",
-      "projectPath": "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap-Projects-csharpR\\Fiap.Aula04\\Fiap.Aula04\\Fiap.Aula04.csproj",
-      "packagesPath": "C:\\Users\\Matheus Sanches\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap-Projects-csharpR\\Fiap.Aula04\\Fiap.Aula04\\obj\\",
+      "projectPath": "C:\\Users\\logonrmlocal\\Downloads\\Fiap-Projects-csharpR\\Fiap.Aula04\\Fiap.Aula04\\Fiap.Aula04.csproj",
+      "packagesPath": "C:\\Users\\logonrmlocal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\logonrmlocal\\Downloads\\Fiap-Projects-csharpR\\Fiap.Aula04\\Fiap.Aula04\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Matheus Sanches\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\logonrmlocal\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
       },
       "frameworks": {
         "net6.0": {
@@ -61,8 +55,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -74,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
