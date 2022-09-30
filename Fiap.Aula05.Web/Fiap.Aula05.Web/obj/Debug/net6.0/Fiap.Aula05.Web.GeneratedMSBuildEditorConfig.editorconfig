@@ -23,8 +23,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/logonrmlocal/Downloads/Fiap-Projects-csharpR/Fiap.Aula05.Web/Fiap.Aula05.Web/Views/Investimento/NoovoInvestimento.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXN0aW1lbnRvXE5vb3ZvSW52ZXN0aW1lbnRvLmNzaHRtbA==
+[C:/Users/logonrmlocal/Downloads/Fiap-Projects-csharpR/Fiap.Aula05.Web/Fiap.Aula05.Web/Views/Investimento/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXN0aW1lbnRvXENhZGFzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/logonrmlocal/Downloads/Fiap-Projects-csharpR/Fiap.Aula05.Web/Fiap.Aula05.Web/Views/Investimento/Editar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXN0aW1lbnRvXEVkaXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/logonrmlocal/Downloads/Fiap-Projects-csharpR/Fiap.Aula05.Web/Fiap.Aula05.Web/Views/Investimento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXN0aW1lbnRvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/logonrmlocal/Downloads/Fiap-Projects-csharpR/Fiap.Aula05.Web/Fiap.Aula05.Web/Views/Investimento/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZXN0aW1lbnRvXF9Gb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/logonrmlocal/Downloads/Fiap-Projects-csharpR/Fiap.Aula05.Web/Fiap.Aula05.Web/Views/Shared/Error.cshtml]

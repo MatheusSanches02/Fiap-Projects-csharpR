@@ -14,7 +14,9 @@ namespace Fiap.Aula05.Web.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var lista = _context.Investimentos.ToList();
+
+            return View(lista);
         }
 
         public IActionResult Cadastrar()
@@ -25,7 +27,27 @@ namespace Fiap.Aula05.Web.Controllers
         [HttpPost]
         public IActionResult Cadastrar(Investimento investimento)
         {
-            return View();
+            _context.Investimentos.Add(investimento);
+			_context.SaveChanges();
+
+            TempData["msg"] = "Investimento Realizado!";
+            return RedirectToAction("Cadastrar");
+        }
+        public IActionResult Editar(int id)
+        {
+            var investimento = _context.Investimentos.Find(id);
+
+            return View(investimento);
+        }
+
+        [HttpPost]
+        public IActionResult Editar(Investimento investimento)
+        {
+            _context.Investimentos.Update(investimento);
+            _context.SaveChanges();
+
+            TempData["msg"] = "Investimento Atualizado!";
+            return RedirectToAction("Index");
         }
     }
 }
