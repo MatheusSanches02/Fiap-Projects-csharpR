@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "42T018DnesXJFVlZoyGh+l3Zy96i3GcxNi90HPl9FkCpBSXJYMapS8XWabshhQcMYyVtIgUEYLWnmCCTipSyEg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap-Projects-csharpR\\Fiap.Aula04\\Fiap.Aula04\\Fiap.Aula04.csproj",
-=======
-  "dgSpecHash": "/3RR3QwB7WBKA4HOGXonySECsatyUxzOh78faIoNPAhAYf98vmKcgpTSh781sjQfe37WdtUnDu4129LwdbRpGw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\logonrmlocal\\Downloads\\Fiap-Projects-csharpR\\Fiap.Aula04\\Fiap.Aula04\\Fiap.Aula04.csproj",
->>>>>>> ba6ce51f5c83177dcd075d7cb799e8622f56a436
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\Matheus Sanches\\Documents\\Github Repo\\Fiap-Projects-csharpR\\Fiap.Aula04\\Fiap.Aula04\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

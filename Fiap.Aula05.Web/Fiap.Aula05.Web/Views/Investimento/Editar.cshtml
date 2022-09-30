@@ -1,0 +1,22 @@
+﻿@model Investimento
+
+@{
+	ViewData["Title"] = "Edição de Investimento";
+}
+
+<h1>Edição de Investimento</h1>
+
+@if (TempData["msg"] != null)
+{
+	<div class="alert alert-success">
+		@TempData["msg"]
+	</div>
+}
+
+<form asp-action="editar">
+	<input asp-for="Codigo" />
+	<partial name="_Form"/>
+
+	<button class="btn btn-primary">Salvar</button>
+</form>
+

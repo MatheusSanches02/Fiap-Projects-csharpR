@@ -1,0 +1,40 @@
+﻿@model Investimento
+
+<div class="mb-3">
+    <label asp-for="Nome"></label>
+    <input asp-for="Nome" class="form-control" />
+</div>
+<div class="mb-3">
+    <label asp-for="CapitalInvestido"></label>
+    <input asp-for="CapitalInvestido" class="form-control" />
+</div>
+<div class="mb-3">
+    <label asp-for="Data"></label>
+    <input asp-for="Data" class="form-control" />
+</div>
+<div class="mb-3">
+    <label asp-for="Rendimento"></label>
+    <input asp-for="Rendimento" class="form-control" />
+</div>
+<div class="mb-3">
+    <label asp-for="Tipo"></label>
+    <select asp-for="Tipo" class="form-select" 
+        asp-items="@Html.GetEnumSelectList<TipoInvestimento>()">
+        <option>Selecione</option>
+    </select>
+</div>
+    <input asp-for="StatusInvestimento.StatusInvestimentoId" />
+<div class="mb-3">
+    <label asp-for="StatusInvestimento.Status"></label>
+    <select asp-for="StatusInvestimento.Status" class="form-select"
+        asp-items="@Html.GetEnumSelectList<Status>()">
+        <option>Selecione</option>
+    </select>
+</div>
+<div class="mb-3">
+    <label asp-for="Corretora"></label>
+    <select class="form-select" asp-for="CorretoraId"
+                                    asp-items="@ViewBag.corretoras">
+        <option>Selecione</option>        
+    </select>
+</div>

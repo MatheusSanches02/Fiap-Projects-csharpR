@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Investimentos</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Garantindo o futuro</h6>
+    <p class="card-text">Total de investimentos: @ViewBag.total</p>
+    <a class="card-link" asp-action="cadastrar" asp-controller="investimento">Cadastrar</a>
+    <a class="card-link" asp-action="index" asp-controller="investimento">Investimentos</a>
+  </div>
+</div>

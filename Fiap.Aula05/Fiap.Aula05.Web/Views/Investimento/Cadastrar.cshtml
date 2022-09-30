@@ -1,0 +1,22 @@
+﻿@model Investimento
+
+@{
+    ViewData["Title"] = "Cadastro de Investimento";
+}
+
+<h1>Cadastro de Investimento</h1>
+
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["msg"]
+    </div>
+}
+
+<form asp-action="cadastrar">
+    
+    <partial name="_Form"/>
+
+    <button class="btn btn-primary">Cadastrar</button>
+
+</form>

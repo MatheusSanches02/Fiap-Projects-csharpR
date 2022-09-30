@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 using System.Reflection;
 
 namespace Fiap.Aula05.Web.Models
@@ -6,10 +7,13 @@ namespace Fiap.Aula05.Web.Models
     public class Investimento
     {
         [Key]
+		[HiddenInput]
         public int Codigo { get; set; } //InvestimentoId
         public string? Titulo { get; set; }
         public string? Objetivo { get; set; }
         public decimal Rendimento { get; set; }
+
+		[Display(Name = "Capital Investido")]
         public decimal CapitalInvestido { get; set; }
         public TipoInvestimento Tipo { get; set; }
         public DateTime Data { get; set; }
@@ -29,10 +33,10 @@ namespace Fiap.Aula05.Web.Models
         public static string GetDisplayName(this Enum enumValue)
         {
             return enumValue.GetType()
-                            .GetMember(enumValue.ToString())
-                            .First()
-                            .GetCustomAttribute<DisplayAttribute>()
-                            .GetName();
+              .GetMember(enumValue.ToString())
+              .First()
+              .GetCustomAttribute<DisplayAttribute>()
+              ?.GetName();
         }
     }
 }
