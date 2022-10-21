@@ -1,0 +1,37 @@
+﻿@model Investimento
+
+@{
+    ViewData["Title"] = "Detalhar";
+}
+
+<h1>@Model.Nome <span class="badge bg-primary">R$ @Model.CapitalInvestido</span> </h1>
+<table class="table table-striped">
+    <tr>
+        <th>Corretora</th>
+        <th>Data Investimento</th>
+        <th>Tipo</th>
+        <th>Rendimento</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td>@Model.Corretora?.Nome</td>
+        <td>@Model.Data</td>
+        <td>@Model.Tipo</td>
+        <td>@Model.Rendimento</td>
+        <td>@Model.StatusInvestimento?.Status</td>
+    </tr>
+</table>
+
+<h2>Objetivos</h2>
+<form asp-action="adicionar" class="row row-cols-lg-auto g-3 mb-3 align-items-center">
+    <input type="hidden" name="InvestimentoId" value="@Model.InvestimentoId" />
+    <div class="col-12">
+        <select name="ObjetivoId" class="form-select" asp-items="@ViewBag.objetivos">
+            <option>Selecione</option>
+        </select>
+    </div>
+    <div class="col-12">
+        <button class="btn btn-success">Adicionar</button>
+    </div>
+</form>
+

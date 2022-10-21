@@ -16,22 +16,16 @@ namespace Fiap.Aula05.Web.Controllers
             _context = context;
         }
 
-
-        [HttpPost]
-        public IActionResult Adicionar()
-        {
-            return View();
-        }
-
-
         [HttpGet]
-        public IActionResult Detalhes(int id)
+        public IActionResult Detalhar(int id)
         {
+            //Pesquisar o investimento pelo ID
             var investimento = _context.Investimentos
                 .Include(i => i.Corretora)
                 .Include(i => i.StatusInvestimento)
                 .Where(i => i.InvestimentoId == id)
                 .FirstOrDefault();
+            //Enviar o investimento para a view
             return View(investimento);
         }
 

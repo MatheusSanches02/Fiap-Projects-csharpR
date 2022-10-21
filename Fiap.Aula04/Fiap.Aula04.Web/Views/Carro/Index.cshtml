@@ -1,0 +1,75 @@
+﻿@model List<Carro>
+
+@{
+    ViewData["Title"] = "Carros";
+}
+
+<!--Definir o conteúdo do Banner no Layout-->
+@section Banner {
+    <div class="alert alert-warning text-center"> 
+        Quer comprar um carro com 50% de desconto? Clique aqui
+    </div>
+}
+
+<h1>Lista de Carros</h1>
+
+<mensagem mensagem="@TempData["msg"]"></mensagem>
+
+<a asp-action="cadastrar" class="btn btn-sm btn-outline-dark">Cadastrar</a>
+
+<table class="table">
+    <!--Criar a primeira linha com os títulos das colunas-->
+    <tr>
+        <th>Modelo</th>
+        <th>Ano</th>
+        <th>Automático</th>
+        <th>Combustível</th>
+        <th>Fabricante</th>
+        <th>Valor</th>
+        <th></th>
+    </tr>
+    <!--Criar um laço de repetição para criar as linhas 
+    com os dados do carro da tabela-->
+    @foreach(var carro in Model)
+    {
+        <tr>
+            <td>@carro.Modelo</td>
+            <td>@carro.Ano</td>
+            <td>@(carro.Automatico?"Automático":"Manual")</td>
+            <td>@carro.Combustivel</td>
+            <td>@carro.Fabricante</td>
+            <td>@carro.Valor</td>
+            <td>
+                <a asp-action="Editar" asp-route-id="@carro.Codigo"
+                    class="btn btn-sm btn-outline-dark">Editar</a>
+                <!-- Button trigger modal -->
+                <button onclick="carroId.value = @carro.Codigo" type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Remover
+                </button>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Confirmação</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Deseja realmente remover o carro?
+      </div>
+      <div class="modal-footer">
+        <form asp-action="Remover">
+            <input name="churros" type="hidden" id="carroId"/>                
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Não</button>
+            <button type="submit" class="btn btn-danger">Sim</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

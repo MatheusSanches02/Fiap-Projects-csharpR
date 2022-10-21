@@ -1,0 +1,17 @@
+﻿@model Carro
+
+@{
+    ViewData["title"] = "Atualização de Carro";
+}
+
+<h1>Atualização de Carro</h1>
+
+<mensagem mensagem="@TempData["churros"]"></mensagem>
+
+<form asp-action="Editar">
+   
+    <partial name="_Form"/>
+
+    <botao class="btn btn-primary" texto="Editar"></botao>
+    <a asp-action="index" class="btn btn-outline-dark">Lista de Carros</a>
+</form>

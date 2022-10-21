@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Logar";    
+}
+
+<h1>Logar</h1>
+
+<!-- Criar um formulário com usuario e senha -->
+
+<form method="post" action="/login/logar">
+    <div class="mb-3">
+        <label>Usuário</label>
+        <input type="text" name="usuario" class="form-control" />
+    </div>
+    <div class="mb-3">
+        <label>Senha</label>
+        <input type="password" name="senha" class="form-control"/>
+    </div>
+    <input type="submit" value="Logar" class="btn btn-outline-primary"/> 
+</form>
+

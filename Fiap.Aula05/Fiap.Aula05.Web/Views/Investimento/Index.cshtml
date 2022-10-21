@@ -32,8 +32,6 @@
         <th>Status</th>
         <th>Corretora</th>
         <th></th>
-        <th></th>
-        <th></th>
     </tr>
     @foreach (var item in Model)
     {
@@ -48,17 +46,12 @@
             <td>
                 <a asp-action="editar" class="btn btn-dark btn-sm"
                asp-route-id="@item.InvestimentoId">Editar</a>
-               
-            </td>
-            <td>
                 <!-- Button trigger modal -->
                 <button onclick="InvestimentoId.value = @item.InvestimentoId" type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Excluir
                 </button>
-            </td>
-            <td>
-                <a asp-action="detalhes" class="btn btn-success btn-sm"
-               asp-route-id="@item.InvestimentoId">Detalhes</a>
+                 <a asp-action="detalhar" class="btn btn-warning btn-sm"
+                                 asp-route-id="@item.InvestimentoId">Detalhes</a>
             </td>
         </tr>
     }
