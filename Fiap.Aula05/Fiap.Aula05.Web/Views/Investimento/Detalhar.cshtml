@@ -23,15 +23,34 @@
 </table>
 
 <h2>Objetivos</h2>
-<form asp-action="adicionar" class="row row-cols-lg-auto g-3 mb-3 align-items-center">
-    <input type="hidden" name="InvestimentoId" value="@Model.InvestimentoId" />
-    <div class="col-12">
-        <select name="ObjetivoId" class="form-select" asp-items="@ViewBag.objetivos">
-            <option>Selecione</option>
-        </select>
+
+@if (TempData["msg"] != null)
+{
+    <div class="alert alert-sucess">
+        @TempData["msg"]
     </div>
-    <div class="col-12">
-        <button class="btn btn-success">Adicionar</button>
-    </div>
-</form>
+}
+
+@if (Model.StatusInvestimento?.Status == Status.Ativo)
+{
+    <form asp-action="adicionar" class="row row-cols-lg-auto g-3 mb-3 align-items-center">
+        <input type="hidden" name="InvestimentoId" value="@Model.InvestimentoId" />
+        <div class="col-12">
+            <select name="ObjetivoId" class="form-select" asp-items="@ViewBag.objetivos">
+                <option>Selecione</option>
+            </select>
+        </div>
+        <div class="col-12">
+            <button class="btn btn-success">Adicionar</button>
+        </div>
+    </form>
+}
+
+
+<ul class="list-group">
+    @foreach (var objetivo in ViewBag.investimentosObjetivos)
+    {
+        <li class="list-group-item">@objetivo.Titulo</li>
+    }
+</ul>
 

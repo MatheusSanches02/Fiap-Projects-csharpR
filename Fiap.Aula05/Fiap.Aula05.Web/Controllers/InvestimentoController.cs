@@ -16,9 +16,40 @@ namespace Fiap.Aula05.Web.Controllers
             _context = context;
         }
 
+        //Método para adicionar um investimento objetivo (Associativa)
+        [HttpPost]
+        public IActionResult Adicionar(InvestimentoObjetivo associativa)
+        {
+            //Cadastrar
+            _context.InvestimentosObjetivos.Add(associativa);
+            _context.SaveChanges();
+            //Mensagem
+            TempData["msg"] = "Objetivo adicionado ao investimento!";
+            //Redirect
+            return RedirectToAction("Detalhar", new { id = associativa.InvestimentoId });
+        }
+
         [HttpGet]
         public IActionResult Detalhar(int id)
         {
+            //Enviar a lista de objetivos associados ao investimento
+            //Pesqquisar por todos os objetivos associados ao investimento
+            var investimentoObjetivos = _context.InvestimentosObjetivos
+                .Where(i => i.InvestimentoId == id) //Filtra
+                .Select(i => i.Objetivo) //Seleciona o retorno
+                .ToList();
+            //Enviar a lista de objetivos para a view
+            ViewBag.investimentoObjetivos = investimentoObjetivos;
+            //Enviar a lista de objetivos para o Select
+            //Pesquisar por todos os objetivos
+            var objetivos = _context.Objetivos.ToList();
+
+            //Filtrar a lista de todos os objetivos, retirando os já associados
+            var listaFiltrada = objetivos
+                .Where(o => !investimentoObjetivos.Any(o1 => o1.ObjetivoId == o.ObjetivoId));
+
+            //Enviar através da viewBag o selectList de objetivo
+            ViewBag.objetivos = new SelectList(listaFiltrada, "ObjetivoId", "Titulo");
             //Pesquisar o investimento pelo ID
             var investimento = _context.Investimentos
                 .Include(i => i.Corretora)
